@@ -15,7 +15,6 @@ const mongoose = require('mongoose');
     try {
       
       await User.deleteMany();
-
  
       const users = [
         { username: 'talebkanj', password: 'password123', role: 'user', balance: 1000 },
