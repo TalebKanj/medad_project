@@ -5,7 +5,6 @@ const User = require('../models/User');
 const Transaction = require('../models/Transaction');
 const router = express.Router();
 
-
 router.post('/', async (req, res) => {
   if (!req.session.user) {
     return res.status(401).json({ error: 'Not logged in' });
