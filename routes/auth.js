@@ -43,7 +43,6 @@ router.post('/login', async (req, res) => {
   }
 });
 
-
 router.put('/toggle-account/:id', async (req, res) => {
   if (!req.session.user || req.session.user.role !== 'admin') {
     return res.status(403).json({ error: 'Unauthorized: Admin access required' });
