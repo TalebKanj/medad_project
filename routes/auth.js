@@ -3,7 +3,7 @@ const bcrypt = require('bcrypt');
 const User = require('../models/User');
 const router = express.Router();
 
-// إضافة سجل للتحقق (يمكن إزالته بعد التشخيص)
+// إضافة سجل للتحقق
 const debug = (message) => console.log(`[DEBUG] ${message}`);
 
 router.post('/register', async (req, res) => {
