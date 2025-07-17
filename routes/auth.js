@@ -70,8 +70,8 @@ router.post('/login', async (req, res) => {
     });
   } catch (error) {
     debug(`Login error: ${error.message}`);
-    res.status(500).json({ error: 'Server error: ' + error.message }); // تحسين رسالة الخطأ
-  }
+    res.status(500).json({ error: 'Server error: ' + error.message }); 
+    }
 });
 router.put('/toggle-account/:id', async (req, res) => {
   if (!req.session.user || req.session.user.role !== 'admin') {
