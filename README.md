@@ -67,7 +67,7 @@ admin
   "balance": 20000
 }
                                                                        تسجيل الدخول
-//[post](http://localhost:3000/api/auth/login)
+[post](http://localhost:3000/api/auth/login)
 
 {
   "username": "taleb",
@@ -90,7 +90,7 @@ admin
 }
                                                                        عرض سجل التحويلات  
 
-[Get](http://localhost:3000/api/transactions/history)
+[GET](http://localhost:3000/api/transactions/history)
             
                                                                        تحديث كلمة المرور 
 
@@ -108,18 +108,18 @@ admin
 
                                                                       
                                                                        عرض التقرير المالي     
-[Get](http://localhost:3000/api/transactions/report)
+[GET](http://localhost:3000/api/transactions/report)
 
 
                                                                      قائمة بجميع التحويلات  
 
-[Get](http://localhost:3000/api/transactions/admin/all)
+[GET](http://localhost:3000/api/transactions/admin/all)
 
 
                                                                    قائمة بجميع المستخدمين  
 
 
-[Get](http://localhost:3000/api/transactions/admin/users)
+[GET](http://localhost:3000/api/transactions/admin/users)
 
 
                                                              
@@ -133,4 +133,4 @@ admin
 
                                                                               شكر وتقدير  للاستاذ حسام ولكافة اعضاء مؤسسسة مداد 
                                                                                                 
-                                           
+                                   
