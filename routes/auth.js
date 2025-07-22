@@ -54,7 +54,6 @@ router.post('/login', async (req, res) => {
     if (!isMatch) {
       return res.status(401).json({ error: 'Invalid password' });
     }
-
     // التحقق من حالة الحساب
     if (!user.isActive) {
       debug(`Account for ${user.username} is disabled`);
