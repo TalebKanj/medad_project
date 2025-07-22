@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "d71cea38-16de-4594-9f3a-df0beb58bb65",
+		"name": "Madad Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44847922",
+		"_collection_link": "https://talebkanj.postman.co/workspace/taleb-kanj's-Workspace~807b7b50-5179-4ed0-82e3-17287dc88180/collection/44847922-d71cea38-16de-4594-9f3a-df0beb58bb65?action=share&source=collection_link&creator=44847922"
+	},
+	"item": [
+		{
+			"name": "انشاء مستخدمين جدد",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "تسجيل الدخول",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "تحويلات بين المستخدمين",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "عرض سجل التحويلات",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "تحديث كلمة المرور",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "تفعيل/تعطيل حساب",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "عرض التقرير المالي",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "قائمة بجميع التحويلات",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "قائمة بجميع المستخدمين",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "حذف التحويلات واسترجاع المبالغ",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
