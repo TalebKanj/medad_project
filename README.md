@@ -67,7 +67,7 @@ admin
   "balance": 20000
 }
                                                                        تسجيل الدخول
-[post](http://localhost:3000/api/auth/login)
+//[post](http://localhost:3000/api/auth/login)
 
 {
   "username": "taleb",
