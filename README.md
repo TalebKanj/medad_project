@@ -88,11 +88,10 @@ admin
   "toUsername": "taleb",
   "amount": 50
 }
-                                                                       عرض سجل التحويلات  
+                                                                    عرض سجل التحويلات  
 
-[GET](http://localhost:3000/api/transactions/history)
-            
-                                                                       تحديث كلمة المرور 
+[GET](http://localhost:3000/api/transactions/history)      
+                                                                   تحديث كلمة المرور 
 
 [Put](http://localhost:3000/api/auth/update-password)
 
@@ -102,7 +101,6 @@ admin
   "newPassword": "Hussam456",
   "email": "Hussam@example.com"
 }
-
                                                                         تفعيل/تعطيل حساب            
 [put](http://localhost:3000/api/auth/toggle-account/معرف المستخدم id)
 
@@ -110,11 +108,9 @@ admin
                                                                        عرض التقرير المالي     
 [GET](http://localhost:3000/api/transactions/report)
 
-
                                                                      قائمة بجميع التحويلات  
 
 [GET](http://localhost:3000/api/transactions/admin/all)
-
 
                                                                    قائمة بجميع المستخدمين  
 
@@ -127,8 +123,6 @@ admin
 
 [PUT](http://localhost:3000/api/transactions/admin/cancel-transaction/معرف المستخدم الذي تريد استرجاع 
 المبلغ منه )
-
-
 
 
                                                                               شكر وتقدير  للاستاذ حسام ولكافة اعضاء مؤسسسة مداد 
