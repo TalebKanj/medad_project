@@ -90,7 +90,7 @@ admin
 }
                                                                        عرض سجل التحويلات  
 
-[GET](http://localhost:3000/api/transactions/history)
+[Get](http://localhost:3000/api/transactions/history)
             
                                                                        تحديث كلمة المرور 
 
@@ -108,18 +108,18 @@ admin
 
                                                                       
                                                                        عرض التقرير المالي     
-[GET](http://localhost:3000/api/transactions/report)
+[Get](http://localhost:3000/api/transactions/report)
 
 
                                                                      قائمة بجميع التحويلات  
 
-[GET](http://localhost:3000/api/transactions/admin/all)
+[Get](http://localhost:3000/api/transactions/admin/all)
 
 
                                                                    قائمة بجميع المستخدمين  
 
 
-[GET](http://localhost:3000/api/transactions/admin/users)
+[Get](http://localhost:3000/api/transactions/admin/users)
 
 
                                                              
